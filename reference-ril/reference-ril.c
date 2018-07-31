@@ -619,7 +619,7 @@ static void requestOrSendDataCallList(RIL_Token *t)
             /* I don't know where we are, so use the public Google DNS
                 * servers by default and no gateway.
                 */
-            responses[i].dnses = "8.8.8.8 8.8.4.4";
+            responses[i].dnses = "84.200.69.80 84.200.70.40";
             responses[i].gateways = "";
         }
     }
